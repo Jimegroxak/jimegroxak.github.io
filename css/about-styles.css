@@ -14,9 +14,12 @@ header {
 
 footer {
     color: #E5E7EB;
-    text-align: center;
     font-size: 16px;
     padding: 16px;
+}
+
+footer p {
+    text-align: center;
 }
 
 h1 {
@@ -24,7 +27,7 @@ h1 {
 }
 
 h2 {
-    margin: 32px 0;
+    margin: 16px 0;
     font-size: 36px;
 }
 
@@ -47,6 +50,10 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+p {
+    text-align: left;
 }
 
 button {
@@ -88,10 +95,9 @@ blockquote {
 }
 
 .section-three {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 16px 256px 48px;
+    padding: 8px 256px 48px;
     background-color: #E5E7EB;
 }
 
