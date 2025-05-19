@@ -19,6 +19,10 @@ footer {
     padding: 16px;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     margin: 32px 0;
     font-size: 36px;
@@ -72,6 +76,7 @@ blockquote {
     display: flex;
     padding: 48px 256px 80px;
     align-items: center;
+    justify-content: center;
     gap: 32px;
 }
 
@@ -149,7 +154,7 @@ a,
 }
 
 #hero-text {
-    font-size: 48px;
+    font-size: 64px;
     color: #F9FAF8;
     font-weight: 900;
     margin: 0;
@@ -158,6 +163,17 @@ a,
 .section-one .left-content {
     flex-grow: 1;
     flex-basis: 100%;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content,
+.right-content {
+    text-align: center;
+    min-width: 180px;
 }
 
 #main-image {
@@ -178,6 +194,11 @@ a,
 
 .content {
     display: flex;
-    gap: 16px;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 64px;
+}
+
+#all-projects-link {
+    color: #848587;
 }
