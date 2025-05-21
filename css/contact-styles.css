@@ -16,6 +16,7 @@ footer {
     color: #E5E7EB;
     font-size: 16px;
     padding: 16px;
+    text-align: center;
 }
 
 footer p {
@@ -66,13 +67,8 @@ button {
     margin-top: 8px;
 }
 
-blockquote {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: light;
-    color: #1F2937;
-    margin-top: 64px;
-    margin-bottom: 0;
+img {
+    max-width: 40px;
 }
 
 .cards {
@@ -143,13 +139,12 @@ textarea {
 
 .section-four {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #8438f6;
-    margin: 128px 256px;
-    padding: 48px 128px;
+    margin: 32px 25%;
+    padding: 16px 64px;
     border-radius: 4px;
+    gap: 16px;
 }
 
 .section-four p {
