@@ -57,8 +57,8 @@ p {
 }
 
 button {
-    background-color: #3882F6;
-    color: #E5E7EB;
+    background-color: #8438f6;
+    color: #fdfeff;
     padding: 8px 32px;
     border-radius: 8px;
     font-size: 16px;
@@ -81,17 +81,51 @@ blockquote {
 
 .section-one {
     display: flex;
-    padding: 48px 256px 80px;
+    flex-direction: column;
+    padding: 48px 256px;
     align-items: center;
     justify-content: center;
-    gap: 32px;
 }
 
-.section-two {
-    padding: 16px 256px;
+.section-one p {
+    color: #E5E7EB;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.email-form {
+    margin: 0 20%;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: #999ca0 2px solid;
+    padding: 8px;
+    border-radius: 8px;
+    min-width: 400px;
+}
+
+input {
+    border: none;
+    border-bottom: #7b1dc3 2px solid;
+}
+
+input,
+textarea {
+    margin: 12px 0px;
+    flex-shrink: 1;
+}
+
+textarea {
+    resize: none;
+    border: #7b1dc3 2px solid;
+    border-radius: 4px;
 }
 
 .section-three {
@@ -134,17 +168,6 @@ blockquote {
     justify-content: space-between;
 }
 
-.card {
-    width: fit-content;
-}
-
-.card img {
-    flex: auto;
-    width: 300px;
-    height: 200px;
-    border: black 1px solid;
-    border-radius: 4px;
-}
 
 #header-logo {
     font-size: 24px;
@@ -176,26 +199,8 @@ a,
     flex-direction: column;
 }
 
-.left-content,
-.right-content {
-    text-align: center;
-    min-width: 180px;
-}
-
-#main-image {
-    flex-grow: 1;
-    width: 300px;
-    height: auto;
-}
-
 .contact-method {
     display: flex;
-}
-
-.contact-method img {
-    width: 24px;
-    height: auto;
-    margin-right: 8px;
 }
 
 .content {

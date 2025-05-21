@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     align-items: start;
-    padding: 16px 256px;
+    padding: 16px 10%;
 }
 
 footer {
@@ -70,7 +70,7 @@ blockquote {
 
 .section-one {
     display: flex;
-    padding: 48px 256px 80px;
+    padding: 48px 15% 80px;
     align-items: center;
     gap: 32px;
 }
